@@ -1,0 +1,19 @@
+*{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+#header{
+    background-color: #064789;
+    color: #ebf2fa;
+    padding: 20px;
+}
+
+#logo {
+    float: left;
+    width: 20%;
+}
+
+#timeline{
+    float: right;
+}
+
