@@ -15,5 +15,10 @@
 
 #timeline{
     float: right;
+    max-width: 25%;
+}
+
+#main{
+    max-width: 65%;
 }
 
