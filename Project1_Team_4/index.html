@@ -28,6 +28,16 @@
             <!-- Importing CSS style sheet-->
             <link rel="stylesheet" href="assets/CSS/style.css">
 
+            <style>
+                * {
+                    color: lightgray;
+                }
+
+                .information {
+                    background-color: #427aa1;
+                }
+            </style>
+            
         </head>
 
         <body>
@@ -47,37 +57,35 @@
             <div id="content">
                 <div id="timeline">
                     <figure>
-                        <span style="color: lightgray;">
-                            <h2>Timeline of Major Internet Events</h2>
-                            <ul>
-                                <li>1969: Arpanet</li>
-                                <li>1971: First Email network</li>
-                                <li>1974: Creation of TCP/IP</li>
-                                <li>1991: First Web Page was Created</li>
-                                <li>1993: Establishment of Web Browsers Such as Mosaic and Netscape Navigator</li>
-                                <li>1995: Founding of Ebay and E-commerce Boom</li>
-                                <li>2004: Launch o Facebook</li>
-                                <li>2006: Launch of AWS</li>
-                                <li>2006: AWS Reveal</li>
-                                <li>2007: Launch of Dropbox</li>
-                                <li>2007: Netflix Introduces its Streaming Service</li>
-                                <li>2008: Launch of Apple App Store</li>
-                                <li>2010: Popularisation of Smartphones and the Mobile Internet</li>
-                                <li>2010: First Commercial Bitcoin Transaction</li>
-                                <li>2010: Launch of WhatsApp</li>
-                                <li>2011: Launch of Instagram</li>
-                                <li>2012: Launch of the Google Play App Store</li>
-                                <li>2012: Launch of Google Drive</li>
-                                <li>2019: Dinsey+ Launch and Streaming Boom</li>
-                            </ul>
-                            <figcaption>Text Source 3</figcaption>
-                        </span>
+                        <h2>Timeline of Major Internet Events</h2>
+                        <ul>
+                            <li>1969: Arpanet</li>
+                            <li>1971: First Email network</li>
+                            <li>1974: Creation of TCP/IP</li>
+                            <li>1991: First Web Page was Created</li>
+                            <li>1993: Establishment of Web Browsers Such as Mosaic and Netscape Navigator</li>
+                            <li>1995: Founding of Ebay and E-commerce Boom</li>
+                            <li>2004: Launch o Facebook</li>
+                            <li>2006: Launch of AWS</li>
+                            <li>2006: AWS Reveal</li>
+                            <li>2007: Launch of Dropbox</li>
+                            <li>2007: Netflix Introduces its Streaming Service</li>
+                            <li>2008: Launch of Apple App Store</li>
+                            <li>2010: Popularisation of Smartphones and the Mobile Internet</li>
+                            <li>2010: First Commercial Bitcoin Transaction</li>
+                            <li>2010: Launch of WhatsApp</li>
+                            <li>2011: Launch of Instagram</li>
+                            <li>2012: Launch of the Google Play App Store</li>
+                            <li>2012: Launch of Google Drive</li>
+                            <li>2019: Dinsey+ Launch and Streaming Boom</li>
+                        </ul>
+                        <figcaption>Text Source 3</figcaption>
                     </figure>
                 </div> <!-- Closing timeline div -->
                 
                 <div id="main">
 
-                    <div id="introduction">
+                    <div class="information">
                         <figure>
                             <h2>Introduction</h2>
                             <p>The Internet was first developed in the United States during the 1950s. The original concept came about during the Cold War, which was a 
@@ -100,14 +108,17 @@
                             </p>
                             <figcaption>Text Source 1</figcaption>
                         </figure>
-                        <figure>
-                            <img src="assets/media/introImage.png" alt="Internet Image with Book">
-                            <figcaption>Image Source 2</figcaption>
-                        </figure>
+                        <span style="display: flex; justify-content: center; text-align: center;">
+                            <figure>
+                                <img src="assets/media/introImage.png" alt="Internet Image with Book">
+                                <figcaption>Image Source 2</figcaption>
+                            </figure>
+                        </span>
                     </div> <!-- Closing intro div -->
                     
-                    <div id="web3">
+                    <div class="information">
                         <figure>
+                            <p>  </p>
                             <h2>Web 3.0 Growth</h2>
                             <p>It is a common belief that there have been 2 past stages of the internet and we have recently entered into the third, Web 3.0. 
                                 Web 1.0 encompassed the early days of the internet and the World Wide Web where almost all websites were read only, offering very little user
@@ -125,10 +136,12 @@
                                 artificial intelegency to make common jobs easier.  </p>
                             <figcaption>Text Source 2</figcaption>
                         </figure>
-                        <figure>
-                            <img src="assets/media/web3Image.png" alt="Web Generation Examples">
-                            <figcaption>Image Source 2</figcaption>
-                        </figure>
+                        <span style="display: flex; justify-content: center; text-align: center;">
+                            <figure>
+                                <img src="assets/media/web3Image.png" alt="Web Generation Examples">
+                                <figcaption>Image Source 2</figcaption>
+                            </figure>
+                        </span>
                     </div> <!-- Closing Web 3 div -->
 
                 </div> <!-- Cloding main div -->
@@ -138,13 +151,17 @@
 
             <!-- Footer div -->
             <div id="footer">
-                <h3>Sources</h3>
-                <div class="source"><a href="https://www.pngall.com/internet-png/download/64384" target="_blank">Header Logo Source</a></div>
-                <div class="source"><a href="https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet" target="_blank">Text Source 1</a></div>
-                <div class="source"><a href="https://www.avast.com/c-web-3-0#:~:text=Web%203.0%2C%20also%20known%20as,network%20of%20meaningfully%20linked%20data." target="_blank">Text Source 2</a></div>
-                <div class="source"><a href="https://cointelegraph.com/news/a-brief-history-of-the-internet" target="_blank">Text Source 3</a></div>
-                <div class="source"><a href="https://www.dataversity.net/brief-history-internet-things/" target="_blank">Image Source 1</a></div>
-                <div class="source"><a href="https://www.acuitykp.com/blog/web-3-0-for-banks-redefining-the-current-lending-format/" target="_blank">Image Source 2</a></div>
+                <div class="information">
+                    <h3>Sources</h3>
+                    <p>
+                        <a href="https://www.pngall.com/internet-png/download/64384" target="_blank">Header Logo Source</a>
+                        <a href="https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet" target="_blank">Text Source 1</a>
+                        <a href="https://www.avast.com/c-web-3-0#:~:text=Web%203.0%2C%20also%20known%20as,network%20of%20meaningfully%20linked%20data." target="_blank">Text Source 2</a>
+                        <a href="https://cointelegraph.com/news/a-brief-history-of-the-internet" target="_blank">Text Source 3</a>
+                        <a href="https://www.dataversity.net/brief-history-internet-things/" target="_blank">Image Source 1</a>
+                        <a href="https://www.acuitykp.com/blog/web-3-0-for-banks-redefining-the-current-lending-format/" target="_blank">Image Source 2</a>
+                    </p>
+                </div>
             </div> <!-- Closing footer div-->
 
         </body>
